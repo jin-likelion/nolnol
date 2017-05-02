@@ -4,7 +4,6 @@ class User < ApplicationRecord
   acts_as_messageable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-  mount_uploader :image, S3Uploader
   def mailboxer_name
     self.user_name
   end
