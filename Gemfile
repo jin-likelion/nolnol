@@ -7,6 +7,8 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'chosen-rails'
+gem 'mailboxer'
 gem 'devise'
 gem 'activeadmin', github: 'activeadmin'
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
